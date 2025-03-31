@@ -1,0 +1,18 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         version="5.0">
+    <display-name>Airline Project</display-name>
+
+    <servlet>
+        <servlet-name>FlightBookingServlet</servlet-name>
+        <servlet-class>sprint2.FlightBookingServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FlightBookingServlet</servlet-name>
+        <url-pattern>/bookFlight</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>Login.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
